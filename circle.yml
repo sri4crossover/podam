@@ -2,4 +2,5 @@ machine:
   java:
     version: openjdk7
 test:
-  override:
+  post:
+    - test
